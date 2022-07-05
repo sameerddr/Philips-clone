@@ -72,7 +72,22 @@
 
 .container3 {
     width: 100%;
-    height: auto;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: slider 9s infinite linear;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url('/images/slide1.webp');
+    }
+    35% {
+        background-image: url('/images/slide2.webp');
+    }
+    75% {
+        background-image: url('/images/slide3.webp');
+    }
 }
 
 .slide1 img {
