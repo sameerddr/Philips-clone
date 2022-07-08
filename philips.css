@@ -71,7 +71,6 @@
 /* ------------------------section 2 ----------------------------- */
 
 .container4 {
-    /* margin: 40px; */
     width: 100%;
     height: 350px;
     display: flex;
@@ -130,3 +129,80 @@ figcaption {
 
 
 /* section 3---------------------------- */
+
+.container5 {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.slide1 {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(73, 134, 247);
+}
+
+.slide2 {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(177, 71, 190);
+}
+
+.container5 img {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.container5 .text1 h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    /* text-align: justify; */
+    display: inline-block;
+    color: whitesmoke;
+}
+
+.container5 .text2 h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    /* text-align: justify; */
+    display: inline-block;
+    color: whitesmoke;
+}
+
+.container5 button {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    background-color: blue;
+    padding: 6px 25px;
+}
+
+.container5 .text1 h6 {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 40px;
+    color: white;
+}
+
+.container5 .text2 h6 {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 40px;
+    color: white;
+}
+
+
+/* section 4 ------------------------ */
+
+.container6 {
+    margin: 0px 150px;
+    width: 75%;
+    height: auto;
+}
