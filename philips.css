@@ -202,7 +202,37 @@ figcaption {
 /* section 4 ------------------------ */
 
 .container6 {
-    margin: 0px 150px;
     width: 75%;
     height: auto;
+}
+
+.box1 img {
+    margin-left: 110px;
+    width: 1130px;
+    position: relative;
+}
+
+.box1 h1 {
+    position: absolute;
+    bottom: -750px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+}
+
+.box1 h4 {
+    position: absolute;
+    bottom: -800px;
+    left: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+.box1 button {
+    position: absolute;
+    bottom: -850px;
+    left: 230px;
+    padding: 6px 30px;
+    background-color: rgb(25, 0, 255);
+    color: white;
 }
