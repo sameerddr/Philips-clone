@@ -178,7 +178,8 @@
     }
     
     .slide2 button {
-        background: linear-gradient(135deg, rgb(66, 20, 95), rgb(125, 0, 99));
+        background-color: #7d0063;
+        color: white;
     }
     
     .slide1 button {
@@ -190,6 +191,7 @@
         margin-top: 80px;
         margin-left: 40px;
         color: white;
+        font-size: smaller;
     }
     
     .container5 .text2 h6 {
@@ -197,6 +199,7 @@
         margin-top: 80px;
         margin-left: 40px;
         color: white;
+        font-size: smaller;
     }
     /* section 4 ------------------------ */
     
@@ -302,7 +305,7 @@
     }
     
     .box3 button {
-        background: linear-gradient(135deg, rgb(66, 20, 95), rgb(125, 0, 99));
+        background-color: #7d0063;
         color: white;
         position: absolute;
         left: 750px;
@@ -340,4 +343,117 @@
         color: white;
         margin-top: 40px;
         margin-left: 80px;
+    }
+    /* -------------------section 7------------------------------------- */
+    
+    .form input {
+        width: 150px;
+        height: 45px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .form .div {
+        margin: 0px 40px;
+    }
+    
+    .container10 {
+        margin-top: 40px;
+        margin-left: 110px;
+        width: 84%;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .container10 .content {
+        width: 830px;
+        height: 500px;
+        background-color: rgb(239, 239, 239);
+        margin-right: 20px;
+        padding: 18px;
+    }
+    
+    .content h1 {
+        font-weight: 300;
+        color: #0066a1;
+        letter-spacing: -.5px;
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 24px;
+    }
+    
+    .content h6 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .tick1 p {
+        margin-bottom: 20px;
+        margin-right: 12px;
+        font-size: large;
+    }
+    
+    .textlast {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    .textlast a {
+        text-decoration: none;
+        color: #003478;
+    }
+    
+    .content button {
+        background-color: #0066a1;
+        -webkit-appearance: button;
+        cursor: pointer;
+        color: #fff;
+        line-height: 1.42857143;
+        text-align: center;
+        border-radius: 2px;
+        font-size: 14px;
+        min-width: 86px;
+        padding: 7px 20px 6px;
+        margin-top: 30px;
+    }
+    
+    aside {
+        background-color: #cdd7e2;
+    }
+    
+    aside h1 {
+        font-size: 50px;
+        margin: 20px;
+    }
+    
+    aside h3 {
+        margin-top: 20px;
+        font-size: 25px;
+        margin: 20px;
+    }
+    
+    aside .tick1 p {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 12px;
+        font-size: large;
+        margin: 20px;
+    }
+    
+    .content2 button {
+        background-color: #0066a1;
+        -webkit-appearance: button;
+        cursor: pointer;
+        color: #fff;
+        line-height: 1.42857143;
+        text-align: center;
+        border-radius: 2px;
+        font-size: 14px;
+        min-width: 86px;
+        padding: 7px 20px 6px;
+        margin: 20px;
     }
