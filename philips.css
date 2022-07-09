@@ -393,7 +393,8 @@
     .tick1 p {
         margin-bottom: 20px;
         margin-right: 12px;
-        font-size: large;
+        margin-top: 10px;
+        font-size: medium;
     }
     
     .textlast {
@@ -440,7 +441,7 @@
         margin-top: 20px;
         margin-bottom: 10px;
         margin-right: 12px;
-        font-size: large;
+        font-size: medium;
         margin: 20px;
     }
     
@@ -456,4 +457,68 @@
         min-width: 86px;
         padding: 7px 20px 6px;
         margin: 20px;
+    }
+    /* --------------------------------footer--------------------------------------- */
+    
+    footer .foot {
+        margin-top: 40px;
+    }
+    
+    .foot {
+        width: 100%;
+        height: 600px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        background-color: rgba(15, 32, 75, 1.0);
+        color: white;
+        margin: 0px auto;
+        padding-left: 110px;
+    }
+    
+    .foot .first {
+        color: #ebb521;
+        font-size: 20px;
+        padding-top: 40px;
+    }
+    
+    ul li {
+        padding-top: 20px;
+    }
+    
+    ul li a {
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    ul li a:hover {
+        color: #1DB954;
+        /* text-decoration: underline; */
+    }
+    /* footer 2 -------------------------------------------- */
+    
+    .footer {
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom right, #003655 0, #0066a1 50%, #0096ee 100%);
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+    }
+    
+    .image img {
+        width: 120px;
+        height: 150px
+    }
+    
+    .icon h4 {
+        font-size: 40px;
+        margin-top: 20px;
+        color: aliceblue;
+    }
+    
+    .icons i {
+        padding-top: 40px;
+        padding-left: 20px;
+        color: white;
     }
